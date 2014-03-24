@@ -47,6 +47,10 @@ body {
   	list-style-type: none;
   }
 
+  .main-title {
+  	margin-left: 0px;
+  }
+
   ul {
   	padding: 0px;
   	margin: 0px;
@@ -103,6 +107,11 @@ ul li div:hover {
 
 .portrait {
 	max-width: 400px;
+}
+
+.flag {
+	margin-top: 25px;
+	padding-right: 0px;
 }
 
 
