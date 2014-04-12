@@ -7,10 +7,14 @@ CafeSenegal.CafeModel = (function() {
 
 
 	getEnglishText = function() {
-		$.getJSON( "src/textes.json", function( data ) {		
-			var temp = _.where(data, {"id": "welcome-text"});
-			console.log("text: ", temp.en);
+		console.log("onengltext");
+		var texts = "hello";
+		$.getJSON("http://vronizinsser.github.io/res/textes/textes.json?callback=?", function( data ) {	
+			setTimeout(function() {console.log("data ", data);	}, 1000);
+			texts = data;
+			
 		});
+		console.log("after ", texts);
 	}
 
 

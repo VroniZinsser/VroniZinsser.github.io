@@ -71,6 +71,8 @@ body {
   a {
 	color: #7085AC;
 	text-decoration: none;
+	font-size: 130%;
+	width:8.33%;
   }
 	
 .nav-element {
@@ -81,11 +83,19 @@ body {
 	border-bottom-style: solid;
 	border-color:  #6B1111;
 	border-width: 2px;
+
 	
 	
 }
 
-ul li div:hover {
+li {
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+
+}
+
+ul li a:hover {
 	border-top-color: #301802;
 	border-bottom-color: #301802;
 	background-color: #A12828;
@@ -112,6 +122,11 @@ ul li div:hover {
 .flag {
 	margin-top: 25px;
 	padding-right: 0px;
+	cursor: pointer;
+}
+
+.flag:hover {
+	src:"/images/flagEnglishLight.jpg";
 }
 
 

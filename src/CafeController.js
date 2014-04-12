@@ -14,6 +14,7 @@ CafeSenegal.CafeController = function() {
 	onSelectLang = function(evt, lang) {
 		console.log("language: ", lang);
 		cafeModel.getEnglishText();
+		cafeView.setLang(lang);
 	}
 
 	that.init = init;
