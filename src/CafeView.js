@@ -1,6 +1,7 @@
 CafeSenegal.CafeView = (function() {
 
 	var that = {},
+	actualLanguage = "en",
 	$flagEn = $("#flag-english"),
 	$flagGe = $("#flag-german"),
 	$flagFr = $("#flag-france"),
@@ -47,11 +48,17 @@ CafeSenegal.CafeView = (function() {
 			}
 		}
 		
+		console.log("obj: ", $("#offers-text"));
+		console.log("welcome: ", $("#welcome-text"));
 
 	},
 
 	setText = function(text) {
-		$("#welcome-text").text(text[0]);
+		$(".nav-home").text(text[0]);
+		$(".nav-offers").text(text[1]);
+		$(".nav-contact").text(text[2]);
+		$(".nav-references").text(text[3]);
+		$("#welcome-text").text(text[4]);
 		console.log("text: ", text);
 	}
 

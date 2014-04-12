@@ -8,26 +8,52 @@ CafeSenegal.CafeText = (function() {
 	},
 
 	setText = function() {
-		textArray.push({
-			id:"welcome-text", 
+		textArray.push(
+		{
+			id:"nav-welcome", 
+			en:"Home", 
+			ge:"Home",
+			fr:"Home"
+		},
+		{
+			id:"nav-offer", 
+			en:"Offers", 
+			ge:"Angebote",
+			fr:"Offertes"
+		},
+		{
+			id:"nav-contact", 
+			en:"Contact", 
+			ge:"Kontakt",
+			fr:"Contact"
+		},
+		{
+			id:"nav-references", 
+			en:"References", 
+			ge:"Erfahrungen",
+			fr:"Rapports"
+		},
+
+		{
+			id:"text-welcome", 
 			en:"This is not just a Café! Come to speak with local people, learn playing the djembe, get a personal tour guide!", 
 			ge:"Willkommen auf dieser herrlichen Seite! Das ist der deutsche Text. Informiert euch bitte ausführlich auf dieser Homepage!!!",
 			fr:"bienvenue, je ne parle pas francais!"
 		},
 		{
-			id:"offer-text",
+			id:"text-offer",
 			en:"What we offer: Apart from an excellent coffee, we can give you individual travel advices, arrange cheap and nice hotels, accompany you on your trips.",
 			ge:"Wir bieten viele tolle Sachen an!",
 			fr:"bienvenue, je ne parle pas francais!"
 		},
 		{
-			id:"contact-text",
+			id:"text-contact",
 			en:"Here you can contact us!",
 			ge:"Ruf uns an!.",
 			fr:"bienvenue, je ne parle pas francais!"
 		},
 		{
-			id:"references-text",
+			id:"text-references",
 			en:"Senegal is a country full of different impressions and adventures. Read what other people have experienced!",
 			ge:"Irgendwann werden wir berühmt :-)",
 			fr:"bienvenue, je ne parle pas francais!"
