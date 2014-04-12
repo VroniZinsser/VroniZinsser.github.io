@@ -1,8 +1,6 @@
 var CafeSenegal = {
 
-	init: function() {
-		console.log("init");
-		
+	init: function() {		
 		CafeSenegal.CafeController.init();
 	}
 	

@@ -48,11 +48,17 @@ CafeSenegal.CafeView = (function() {
 		}
 		
 
+	},
+
+	setText = function(text) {
+		$("#welcome-text").text(text[0]);
+		console.log("text: ", text);
 	}
 
 
 
 	that.init = init;
 	that.setLang = setLang;
+	that.setText = setText;
 	return that;
 }());
